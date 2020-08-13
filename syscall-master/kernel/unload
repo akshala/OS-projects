@@ -1,0 +1,5 @@
+#!/bin/bash
+MODULE="cse231"
+
+rmmod $MODULE
+rm -f /dev/$MODULE
